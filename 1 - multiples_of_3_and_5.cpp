@@ -1,5 +1,5 @@
 /*
-    @file       1-sums_of_multiples.cpp
+    @file       1 - multiples_of_3_and_5.cpp
     @author     Tolby Lam
     @date       2/24/2018
     @version    1.0
