@@ -24,7 +24,7 @@ int main() {
 	int k = 4000000; //limit
 	
 	while(b < k) {
-		if(b % 2) { //check if number is even
+		if(b % 2 == 0) { //check if number is even
 			sum = sum + b;
 		}
 		c = a + b;
