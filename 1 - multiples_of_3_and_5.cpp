@@ -57,7 +57,7 @@ int main() {
     cout << "The sum of all multiples of " << x << " and " << y 
          << " under " << n << " is " << itr_sol(x, y, n);
     
-    return 1;
+    return 0;
 }
 
 int itr_sol(int a, int b, int k) {
