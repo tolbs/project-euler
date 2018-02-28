@@ -33,5 +33,5 @@ int main() {
 	}
 	
 	std::cout << "The sum is " << sum;
-	return 1;
+	return 0;
 }
