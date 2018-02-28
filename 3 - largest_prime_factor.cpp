@@ -16,13 +16,31 @@ using std::cin;
 using std::cout;
 
 //==function headers===========================================================
-
-
-//==global variables===========================================================
+int largest_prime_factor(int n);
 
 
 //==main function==============================================================
 int main() {
-    cout << "Hello, world!";
-    return 1;
+	int input;
+	
+	cout << "Enter a number: ";
+	cin >> input;
+	
+	cout << "The largest prime factor of " << input << " = "
+	     << largest_prime_factor(input);
+		 
+	return 0;
+}
+
+int largest_prime_factor(int n) {
+	int largest = 1;
+	
+	for(int i = 1; i <= n; i++) {
+		if(n % i) {
+			largest = i;
+			n = n / i;
+		}
+	}
+	
+	return largest;
 }
