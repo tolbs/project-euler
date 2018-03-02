@@ -9,14 +9,12 @@
                 The sum of these multiples is 23.
                 Find the sum of all the multiples of 3 or 5 below 1000.
                 
-                Let A = {x: x = 3k for all x ∈ N}
-                Let B = {x: x = 5k for all x ∈ N}
-                The solution S is the union of the sets A and B minus their intersection
+                Let A = {x: x ∈ N, x = 3k for all k ∈ N}
+                Let B = {x: x ∈ N, x = 5k for all k ∈ N}
+                The solution S is the union of the sets A and B minus their intersection.
 
     @TODO       -solve the problem
                     -recursive solution
-                    -iterative solution
-                -find a general solution
                 -provide mathematical proof
 */
 
@@ -29,12 +27,12 @@ using std::cout;
 
 //--itr_sol()------------------------------------------------------------------
 /*
-    @brief  Returns an approximate solution z to the equation:
-            x^(5.3) + (3.5)^x = 8379097
+    @brief  Finds multiples of any two given numbers under a certain number
+            and adds up their sum.
 
     @param  a   The first number to find multiples of.
     @param  b   The second number to find multiples of.
-	@param	k	Multiples of a and b must be under this number.
+    @param  k	Multiples of a and b must be under this number.
 
     @return	The sum of all their multiples.
 */
