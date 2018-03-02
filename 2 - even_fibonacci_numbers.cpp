@@ -8,9 +8,7 @@
 				whose values do not exceed k.
                 
 
-    @TODO       -create fibonacci sequence
-				-limit to values under k
-				-further limit to even values
+    @TODO       -document code
 */
 
 #include <iostream>
